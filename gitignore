@@ -1,0 +1,10 @@
+# Analysis outputs (DIR_ANALYSIS should normally sit outside the repository)
+Analysis/
+*.rds
+*.tif
+*.csv.gz
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
