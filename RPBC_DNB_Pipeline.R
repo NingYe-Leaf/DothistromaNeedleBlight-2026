@@ -405,7 +405,7 @@ calc_vegetation_indices <- function(px) {
       ARI2       = (1 / b4) - (1 / b9),
       CRI550_515 = (1 / b3) - (1 / b4),
       CRI700_515 = (1 / b3) - (1 / b8),
-      DCabCxc    = b7 / (b4 * 3 * b8),
+      DCabCxc    = b7 / (b4 * b8),
       DNIRCabCxc = b11 / (b4 * b8),
       SIPI       = (b11 - b1) / (b11 + b7),
       PSRI       = (b7 - b2) / b10,
